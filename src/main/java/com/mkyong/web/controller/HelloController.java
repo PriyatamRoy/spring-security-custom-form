@@ -26,7 +26,6 @@ public class HelloController {
 		ModelAndView model = new ModelAndView();
 		model.addObject("title", "Spring Security Custom Login Form");
 		model.addObject("message", "This is welcome page!");
-                //welcome url is not authenticated. change spring security config
 		model.setViewName("welcome");
 		return model;
 
